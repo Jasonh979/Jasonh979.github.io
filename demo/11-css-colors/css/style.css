@@ -1,0 +1,26 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+#first-paragraph {
+    color: #23a2d4;
+}
+
+#second-paragraph {
+    background-color: orange;
+    color:blue;
+}
+
+#span-1 {
+    color:black;
+}
+
+#span-2 {
+    color:darkblue;
+    background-color: yellow;
+}
