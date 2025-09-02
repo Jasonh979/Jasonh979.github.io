@@ -50,3 +50,19 @@ body {
 #lineunder {
     text-decoration: underline;
 }
+
+#size {
+    font-size: 36px;
+}
+
+#height {
+    font-size: 12px;
+}
+
+#larger {
+    font-size: 48px;
+}
+
+#itlalicc {
+    font-size: 24px;
+}
