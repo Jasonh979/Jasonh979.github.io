@@ -1,0 +1,52 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+#paragragh-1 {
+    color: green; 
+}
+
+#purple,
+#purple-2 {
+    color: #f711f7;
+}
+
+#red {
+    color: red;
+}
+
+#goldenred {
+    color: goldenrod;
+} 
+
+#blue {
+    color: blue;
+}
+
+#this-is-background {
+    background-color: skyblue;
+}
+
+#yellow-1 {
+    background-color: yellow;
+}
+
+#bold,
+#bold-2 {
+    font-weight: bold;
+}
+
+#italic,
+#italic-2 {
+    font-style: italic;
+}
+
+#underline,
+#lineunder {
+    text-decoration: underline;
+}
