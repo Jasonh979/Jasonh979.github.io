@@ -17,7 +17,7 @@ body {
     box-shadow: 4px 4px 4px grey;
 }
 
-.block{
+.block {
     display: inline-block;
     width: 100px;
     height: 100px;
@@ -41,6 +41,3 @@ body {
     background-color: gold;
     border: 20px outset rgb(185, 162, 26);
 }
-
-
-
