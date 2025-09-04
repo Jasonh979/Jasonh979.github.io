@@ -1,0 +1,46 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+#container {
+    width: 500px;
+    height: 100vh;
+    background-color: black;
+    font-size: 0px;
+    margin: 0px;
+    padding: 0px;
+    box-shadow: 4px 4px 4px grey;
+}
+
+.block{
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    background-color: lightgray;
+}
+
+.red {
+    background-color: red;
+    border: 20px outset rgb(201, 45, 45);
+}
+
+.green {
+    background-color: green;
+    border: 20px outset rgb(27, 133, 27);
+}
+.purple {
+    background-color: purple;
+    border: 20px outset rgb(107, 13, 107);
+}
+.gold {
+    background-color: gold;
+    border: 20px outset rgb(185, 162, 26);
+}
+
+
+
