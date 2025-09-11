@@ -1,0 +1,32 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+.frame-1 div {
+    background-color: white;
+    border: 20px;
+    box-shadow: 15px 15px 8px black;
+    padding: 15px;
+}
+
+div {
+        display: block;
+}
+
+.frame-1 {
+    display: inline-block;
+    border: 40px solid burlywood;
+    margin: 70px 12px 12px 10px;
+    box-shadow: -4px 4px 4px #444444;
+    vertical-align: top;
+    padding: 30px;
+}
+
+#pic1{
+    height: 400px;    
+}
