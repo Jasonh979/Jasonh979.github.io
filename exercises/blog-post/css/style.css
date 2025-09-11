@@ -13,34 +13,9 @@ body {
     max-width: 600px;
     margin-left: auto;
     margin-right: auto;
+    border: 5px solid red;
 }
 
 .center img {
     width:100%;
 }
-
-#border-style-ridge { 
-    border: 20px red;
-}
-  
-
-
-
-/* .width {
-    width: 500px;
-    padding-bottom: 20px;
-    padding-top: 20px;
-    margin-left: auto;
-    margin-right: auto;
-/* }
-.paragraph-padding {
-    max-width: 600px;
-    margin-left: auto;
-    margin-right:auto;
-} */ */
-
-
-
-
-
-
