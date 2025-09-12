@@ -56,3 +56,14 @@ ul {
     padding: 2px;    
     border-radius: 5px;
 }
+
+#morning .button{
+    background-color:rgb(183, 120, 241);
+}
+#afternoon .button{
+    background-color:rgb(151, 124, 88);
+}
+
+#evening .button{
+    background-color: rgba(130, 124, 223, 0.767)
+}
