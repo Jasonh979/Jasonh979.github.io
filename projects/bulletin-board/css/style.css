@@ -1,0 +1,28 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+.post-it {
+    background-color: yellow;
+    width: 200px;
+    height: 200px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 24px;
+    padding: 24px;
+    vertical-align: top;
+    display: inline-block;
+    font-size: 12px;
+    box-shadow: 4px 4px 4px black;
+}
+
+.post-it.green {
+    background-color: greenyellow;
+}
+
+.post-it.pink {
+    background-color: pink;
+}
