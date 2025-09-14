@@ -26,3 +26,14 @@ body {
 .post-it.pink {
     background-color: pink;
 }
+
+.dog-pic{
+    width: 150px;
+    padding: 2px;
+    border: 2px solid black;;
+}
+#dog-pic1{
+    object-fit: contain;
+}
+
+

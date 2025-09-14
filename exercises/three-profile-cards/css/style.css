@@ -39,7 +39,7 @@ body {
     object-fit: cover;
     border-radius: 200px;
     padding: 10px;
-    border: 2px solid black;
+    border: 2px solid red;
 }
 
 #card-container .card a {
