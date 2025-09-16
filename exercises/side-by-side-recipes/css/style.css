@@ -6,3 +6,37 @@ body {
     margin: 0px;
     font-family: sans-serif;
 }
+
+#single-column {
+    max-width: 800px;
+    margin: 48px auto;
+}
+
+#side-by-side-1 {
+    display: flex;
+    align-items: center;
+}
+
+#side-by-side-1 {
+    gap: 36px;
+    align-items: center;
+    padding: 36px 0 px;
+    border-top: 1 px solid black;
+    border-bottom: 1 px solid black;
+    margin-bottom: 60px;
+}
+
+#side-by-side-1 .image-container {
+    flex: 1;
+}
+
+#side-by-side-1 .content-container {
+    flex: 1;
+}
+
+#side-by-side-1 .image-container img {
+    width: 50%;
+}
+.bold {
+    font-weight: bold;
+}
