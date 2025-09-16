@@ -20,7 +20,7 @@ body {
 #side-by-side-1 {
     gap: 36px;
     align-items: center;
-    padding: 36px 0 px;
+    padding: 16px 0 px;
     border-top: 1 px solid black;
     border-bottom: 1 px solid black;
     margin-bottom: 60px;
@@ -40,3 +40,25 @@ body {
 .bold {
     font-weight: bold;
 }
+
+div {
+    display: block;
+}
+
+#three-cards {
+    display:flex;
+
+}
+
+#three-cards .images {
+    font-size: 20px;
+    text-align: center;
+    flex:1
+}
+
+#three-cards .images img {
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+}
+
