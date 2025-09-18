@@ -1,0 +1,21 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+    background-color: black;
+    color: white;
+}
+
+.center { 
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 5px solid red;
+}
+
+.center img {
+    width: 100%;
+}
