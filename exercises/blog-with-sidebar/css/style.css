@@ -9,13 +9,49 @@ body {
     color: white;
 }
 
-.center { 
-    max-width: 600px;
+#two-column {
+    display: flex;
+    width: 1000px;
     margin-left: auto;
-    margin-right: auto;
-    border: 5px solid red;
+    margin-right: auto;   
+    border: 1px solid red; 
 }
 
+#sidebar-content {
+    width: 250px;
+    order: 2;
+    padding: 24px;
+}
+
+#sidebar-content h2 {
+    background: linear-gradient(black, red, black);
+    padding: 20px;
+    margin: 0px;
+    font-size: 24px;
+}
+
+#sidebar-content ul {
+    margin: 0px 0px 36px;
+    background: linear-gradient(black, red, black);
+    border: 1 px solid red;
+    list-style-type: none;
+    padding: 36px; 
+}
+
+#sidebar-content a {
+    text-decoration: none;
+    color: white;
+    padding: 10px 10px;
+}
+
+#main-content {
+    background: linear-gradient(black, red, black);
+    flex: 1;
+    order: 1;
+}
+
+
+
 .center img {
-    width: 100%;
+    width: 75%;
 }
