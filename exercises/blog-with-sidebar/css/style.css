@@ -11,7 +11,8 @@ body {
 
 #two-column {
     display: flex;
-    width: 1000px;
+    width: 800px;
+    padding: 2px;
     margin-left: auto;
     margin-right: auto;   
     border: 1px solid red; 
@@ -50,8 +51,6 @@ body {
     order: 1;
 }
 
-
-
 .center img {
-    width: 75%;
+    width: 100%;
 }
