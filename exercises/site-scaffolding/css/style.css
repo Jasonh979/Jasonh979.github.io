@@ -8,7 +8,7 @@ body {
 }
 
 #navbar {
-    background: linear-gradient(rgb(62, 62, 201), rgb(133, 154, 250));
+    background: linear-gradient(rgb(219, 221, 76), rgb(107, 230, 96));
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -22,7 +22,7 @@ body {
 }
 
 #navbar .cta-button {
-    background-color: rgb(135, 49, 216);
+    background-color: rgb(49, 169, 216);
     color: white;
     border-radius: 48px;
     padding: 12px;
