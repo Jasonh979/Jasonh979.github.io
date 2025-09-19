@@ -91,7 +91,7 @@ h2 {
 
 #product-info-column #price {
     font-size: 18px;
-    font-weight: bold;
+    border-bottom: 1px solid grey;
 }
 
 #product-info-column #condition span {
