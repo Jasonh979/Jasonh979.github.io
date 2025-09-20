@@ -1,0 +1,47 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+#navbar {
+    background: #ffedcf;
+    display: flex;
+    justify-content: space-between;
+    align-items: 
+    max-width: auto;
+}
+
+#navbar a {
+    text-decoration: none;
+    color: black;
+    padding: 24px;
+}
+
+#navbar #logo {
+    margin-right: auto;
+    font-weight: bold;
+}
+
+#centered-hero { 
+    /* These 4 properties wil need on every hero */
+    background-image: url("../Images/pottery-8026823_1280.jpg");
+    background-size: cover;
+    background-position: center center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#centered-hero .cta-button {
+    background-color: #ffedcf;
+    color: black;
+    border-radius: 35px;
+    padding: 12px;
+    font-size: 16px;
+    font-weight: bold;
+}

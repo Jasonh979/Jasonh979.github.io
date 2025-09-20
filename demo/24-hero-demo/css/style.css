@@ -1,0 +1,63 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+#centered-hero { 
+    /* These 4 properties wil need on every hero */
+    background-image: url("../Images/stars-on-velvet.jpg");
+    background-size: cover;
+    background-position: center center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#centered-hero .hero-content {
+    color: white;
+    text-align: center;
+}
+
+.hero-content h1{
+    font-size: 6vw;
+}
+/* only use font size vw in hero only */
+.hero-content h3 {
+    font-size: 3vw;
+}
+
+#side-hero { 
+    /* These 4 properties wil need on every hero */
+    background-image: url("../Images/lonely-ocean.jpg");
+    background-size: cover;
+    background-position: center center;
+    height: 100vh;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 12%
+}
+
+#contrast-hero { 
+    /* These 4 properties wil need on every hero */
+    background-image: url("../Images/placid-waters.jpg");
+    background-size: cover;
+    background-position: center center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#contrast-hero .hero-content {
+    background-color: rgba(255, 255, 255, 0.185);
+    padding: 24px;
+    text-align: center;
+    border-radius: 36px;
+    
+}
