@@ -7,6 +7,8 @@ body {
     margin: 0px;
     font-family: sans-serif;
     background-color: orangered;
+    background-image: url(../Images/R\ \(2\).jpg)
+
 
 }
 
@@ -48,29 +50,27 @@ body {
 
 h5 {
     padding-bottom: 30px;
-    color: white;
+    color: black;
 }
 
 h1 {
-    color: white;
+    color: black;
     font-size: 80px;
 }
 
 h2 {
-    color: white;
+    font-size: 30px;
 }
 
 h3 {
-    color: white;
-}
-
-h4 {
     font-family: "Bad Script", cursive;
     font-weight: 400;
     font-style: bold;
-    color: white;
+    color: black;
+    font-size: 25px;
 }
 h6 {
-    color: white;
+    color: black;
     padding: 10px;
+    font-size: 20px;
 }
