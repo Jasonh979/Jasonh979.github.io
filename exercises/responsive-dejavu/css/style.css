@@ -65,7 +65,7 @@ h3 {
 
 #navbar a {
     text-decoration: none;
-    padding: 24px 48px
+    padding: 24px 48px;
 }
 
 #navbar a#logo {
@@ -74,26 +74,30 @@ h3 {
 
 }
 
-@media screen and ( max-width: 1000px){
-    #hero{
+@media screen and ( max-width: 1000px) {
+    #hero {
         background-image: linear-gradient(to bottom, blue, blue);
         display: flex;
         justify-content: center;
         align-items: center;
-        }
+    }
 }
 
-@media screen and ( max-width: 1200px){
-    #hero{
+@media screen and (max-width: 1200px) {
+    #hero {
         background-size: 100% 800px;
         height: 50vh;
     }
 }
 
-@media screen and ( max-width: 1000px){
-    .grid-gallery{
-        display: grid
-
-        }
+@media screen and ( max-width: 1000px) {
+    .grid-gallery {
+        grid-template-columns: 1fr 1fr;
+    }
 }
 
+@media screen and ( max-width: 680px) {
+    .grid-gallery {
+        grid-template-columns: 1fr;
+    }
+}
