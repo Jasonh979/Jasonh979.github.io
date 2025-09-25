@@ -55,3 +55,45 @@ h3 {
     font-weight: bold;
     padding-left: 15px;
 }
+
+#navbar {
+    background-color: rgb(53, 129, 192);
+    border-bottom: 5px solid blue;
+    display: flex;
+    justify-content: center;    
+}
+
+#navbar a {
+    text-decoration: none;
+    padding: 24px 48px
+}
+
+#navbar a#logo {
+    font-size: 28px;
+    font-weight: bold;
+
+}
+
+@media screen and ( max-width: 1000px){
+    #hero{
+        background-image: linear-gradient(to bottom, blue, blue);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        }
+}
+
+@media screen and ( max-width: 1200px){
+    #hero{
+        background-size: 100% 800px;
+        height: 50vh;
+    }
+}
+
+@media screen and ( max-width: 1000px){
+    .grid-gallery{
+        display: grid
+
+        }
+}
+
