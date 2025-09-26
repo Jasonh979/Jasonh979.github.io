@@ -5,17 +5,19 @@
 body {
     margin: 0px;
     font-family: sans-serif;
+    background-color: antiquewhite;
 }
 
 #hero {
     background-image: url(../Images/hero.jpg);
     background-size: cover;
-    background-position: center;
-    height: 100vh;
+    background-position: right center;
+    height: 80vh;
     display: flex;
     justify-content: flex-end;
     align-items: center;
     padding: 10vw;
+    box-shadow: 10px 10px 15px grey;
 }
 #navbar {
     background-color: antiquewhite;
@@ -24,19 +26,23 @@ body {
     justify-content: center;
 }
 
+#logo {
+    font-family: 
+}
+
 #navbar a {
     text-decoration: none;
     padding: 24px 48px;
-    justify-content: end;
+    color: black;
 }
 
 #hero h1 {
     color: white;
-    font-size: 10vh;
+    font-size: 8vh;
+
 }
 
 #hero a {
-    display: inline-flex;
     color: black;
     text-decoration: none;
     background-color: antiquewhite;
@@ -79,16 +85,67 @@ body {
     margin: 68px 0px;
     background-color: antiquewhite;
     border-radius: 20px;
-
+    box-shadow: 10px 10px 8px gray;
 }
 
 .card a {
     text-decoration: none;
     display: inline-block;
-    color: black;
-    border: 3px solid rgb(182, 143, 143);
-    background-color: aquamarine;
+    color: white;
+    border: 3px solid black;
+    background-color: hsl(0, 0%, 3%);
     border-radius: 20px;
     padding: 10px;
+}
 
+.card img {
+    height: 150px;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 20px;
+    box-shadow: 2px 2px 4px grey;
+}
+@media screen and ( max-width: 1000px) {
+    #hero {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    #hero {
+        background-size: 100% 800px;
+        height: 50vh;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    #hero {
+        background-size: 100vh;
+        height: 50vh;
+    }
+    #navbar {
+        flex-direction: column;
+        align-items: center;
+    }
+    #single-column h1 {
+        font-size: 32px;
+    }
+    #card-container {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media screen and ( max-width: 1000px) {
+    .grid-gallery {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media screen and ( max-width: 680px) {
+    .grid-gallery {
+        grid-template-columns: 1fr;
+    }
 }
